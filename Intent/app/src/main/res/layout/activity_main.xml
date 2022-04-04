@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     android:background="@drawable/welcome">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="80dp"
@@ -16,8 +17,6 @@
         android:layout_marginTop="300dp"
         android:layout_marginLeft="10dp"
         android:text="Màn hình chính"
-        android:textColor="@color/white"
-        android:background="@color/teal_200"
         android:textSize="35dp" />
 
     <Button
@@ -29,6 +28,7 @@
         android:backgroundTint="@color/teal_700"
         android:gravity="center"
         android:text="Đăng nhập"
+        android:onClick="Chuyen"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25dp" />

@@ -25,7 +25,7 @@
         android:layout_marginTop="40dp"/>
 
     <TextView
-        android:id="@+id/tvusername"
+        android:id="@+id/tvUserName"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:hint="UserName"
@@ -33,4 +33,26 @@
         android:layout_marginTop="20dp"
         android:textColor="@color/white"
         android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnquiz1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="quiz 1"/>
+        <Button
+            android:id="@+id/btnquiz2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="quiz 2"/>
+
+    </LinearLayout>
 </LinearLayout>

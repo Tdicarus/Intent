@@ -38,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="15"
+        android:inputType="textPassword"
         android:layout_gravity="center"
         android:hint="Mật khẩu" />
 
@@ -50,7 +51,7 @@
         android:hint="E-mail" />
 
     <Button
-        android:id="@+id/edtOk"
+        android:id="@+id/btnOk"
         android:layout_width="wrap_content"
         android:ems="13"
         android:layout_height="wrap_content"
